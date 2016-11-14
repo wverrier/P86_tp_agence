@@ -1,0 +1,149 @@
+/* Reset*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#wrapper{
+    width: 80%;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: cadetblue;
+
+}
+
+header {
+    padding-top: 20px;
+    width: 100%;
+}
+
+#logo_site{
+    float: left;
+    margin-left: 10px;
+    height: 100px;
+
+}
+
+.logo_social{
+    height: 30px;
+}
+#banniere_photo{
+    height: 120px;
+}
+#menu_top{
+    padding-top: 0;
+    margin-left: 760px;
+}
+
+.menu_right li{
+    display: inline-block;
+    background-color: lightsteelblue;
+    list-style-type: none;
+    height: 30px;
+}
+
+.menu_right li a{
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    height: 35px;
+    line-height: 30px;
+    width: 100px;
+}
+
+.menu_right li a:hover{
+    background-color: #999;
+
+}
+.menu_right li a:active{
+    background-color: #fff278;
+
+}
+
+#menu_principal{
+    margin-top: 80px;
+}
+
+.menu{
+    float: right;
+
+}
+
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+    background-color: darkorange;
+}
+
+.menu li a{
+    float: left;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    height: 40px;
+    line-height: 30px;
+    width: 150px;
+
+}
+
+.menu li a:hover{
+    background-color: #999;
+
+}
+.menu li a:active{
+    background-color: #fff278;
+
+}
+
+#reseaux_sociaux {
+    float: right;
+    height: 10%;
+
+}
+
+#facebook, #twitter{
+    float: right;
+
+}
+
+
+#main{
+
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+#banniere_photo{
+    width: 80%;
+    height: 20%;
+}
+
+#forfaits{
+    border: 1px solid whitesmoke;
+    width: 19%;
+    height: 15%;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.photo_meilleures_offres{
+    width: 98%;
+    padding: 10px;
+}
+#forfaits h4{
+    text-align: center;
+}
+#forfaits p{
+    padding-left: 10px;
+}
+aside{
+    border: 1px solid whitesmoke;
+    float: right;
+    clear: left;
+    margin-right: 30px;
+    width: 20%;
+}
+

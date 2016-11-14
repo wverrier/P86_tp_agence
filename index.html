@@ -6,85 +6,90 @@
     <link rel="stylesheet" href="style/main.css"/>
 </head>
 <body>
-<header id="main_right">
-    <div id="wrapper">
-        <ul class="menu_right"><!--
+<div id="wrapper">
+    <header id="main_right">
+        <div id="menu_top">
+            <ul class="menu_right"><!--
             -->
-            <li><a id="menu_connect" href="#"><p>Connexion</p></a></li><!--
+                <li><a id="menu_connect" href="#"><p>Connexion</p></a></li><!--
             -->
-            <li><a id="menu_inscription" href="#"><p>Inscription</p></a></li><!--
+                <li><a id="menu_inscription" href="#"><p>Inscription</p></a></li><!--
             -->
-            <li><a id="menu_contact" href="#"><p>Contact</p></a></li><!--
+                <li><a id="menu_contact" href="#"><p>Contact</p></a></li><!--
             -->
-        </ul>
-    </div>
-    <img id="logo_site" src="images/logo.png">
+            </ul>
+        </div>
+        <div id="menu_principal">
+            <ul class="menu"><!--
+            -->
+                <li><a id="menu_home" href="#"><p>Home</p></a></li><!--
+            -->
+                <li><a id="menu_offres" href="#"><p>Nos offres</p></a></li><!--
+            -->
+                <li><a id="menu_croissieres" href="#"><p>Croisières</p></a></li><!--
+            -->
+                <li><a id="menu_vols" href="#"><p>Vols</p></a></li><!--
+            -->
+                <li><a id="menu_hotel" href="#"><p>Contact</p></a></li><!--
+            -->
+            </ul>
+        </div>
+        <div id="reseaux_sociaux">
+            <div id="facebook">
+                <img class="logo_social" src="images/facebook.png">
+            </div>
+            <div id="twitter">
+                <img class="logo_social" src="images/twitter.png">
+            </div>
+        </div>
+    </header>
     <div id="main">
-        <ul class="menu"><!--
-            -->
-            <li><a id="menu_home" href="#"><p>Home</p></a></li><!--
-            -->
-            <li><a id="menu_offres" href="#"><p>Nos offres</p></a></li><!--
-            -->
-            <li><a id="menu_croissieres" href="#"><p>Croisières</p></a></li><!--
-            -->
-            <li><a id="menu_vols" href="#"><p>Vols</p></a></li><!--
-            -->
-            <li><a id="menu_hotel" href="#"><p>Contact</p></a></li><!--
-            -->
-        </ul>
+        <div id="carroussel">
+            <img id="banniere_photo" src="images/Bateau.jpg" alt="un bateau">
+        </div>
+
+        <div id="forfaits">
+            <h3>Meilleures offres | Tout voir</h3>
+            <img class="photo_meilleures_offres" src="images/fond_ecran_plage.jpg">
+            <h4>Lorem ipsum</h4>
+            <p class="paragraphe_meilleures_offres">dollor sit amet consectetur adipiscing elit.Quisque sodales ipsum
+                vitae</p>
+            <p class="prix_meilleures_offres">800$</p>
+            <button id="reserver_forfait" type="button">Reserver</button>
+        </div>
+        <!-- Repeter le code ci-dessus 3x -->
+
     </div>
-    <img class="logo_social" src="images/facebook.png">
-    <img class="logo_social" src="images/twitter.png">
-</header>
 
-<!-- A modifier-->
-<aside><!--lui donner un div ou une classe-->
-    <img id="banniere_photo" src="images/Bateau.jpg">
-</aside>
+    <aside><!--lui donner un div ou une classe-->
+        <h3>Inscrivez-vous</h3>
 
-<main>
-    <h2>Meilleures offres | Tout voir</h2>
-    <img class="photo_meilleures_offres" src="images/fond_ecran_plage.jpg">
-    <h3>Lorem ipsum</h3>
-    <p class="paragraphe_meilleures_offres">dollor sit amet consectetur adipiscing elit.Quisque sodales ipsum vitae</p>
-    <p class="prix_meilleures_offres">800$</p>
-    <button type="button">Reserver</button>
-    <!-- Repeter le code ci-dessus 3x -->
-    <h4>Last Minute</h4>
-    <img id="photo_bottom_meilleures_offres" src="images/photo_plage_bandeau.jpg">
-</main>
-
-<aside><!--lui donner un div ou une classe-->
-    <h2>Inscrivez-vous</h2>
-
-    <form>
-        <div id="saisie">
-            <label for="nom">Nom :</label>
-            <input type="text" name="nom" id="nom" placeholder="Ex: Jhon"/>
-            <label for="prenom">Prenom</label>
-            <input type="text" name="prenom" id="prenom" placeholder="Ex: Marshon"/>
-            <label for="courriel">Email:</label>
-            <input type="email" name="email" id="courriel"/>
-        </div>
-        <div>
-            <h2>Nos partenaire</h2>
-            <img class="logo_partenaires" src="images/facebook.png">
-        </div>
-        <div>
-            <label>A decouvrir</label>
-            <input type="checkbox" name="hotel_1" id="hotel_1"/>
-            <label for="hotel_1">Hotel</label>
-            <input type="checkbox" name="hotel_2" id="hotel_2"/>
-            <label for="hotel_2">Hotel</label>
-            <input type="checkbox" name="hotel_3" id="hotel_3"/>
-            <label for="hotel_3">Hotel</label>
-        </div>
+        <form>
+            <div id="saisie">
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom" placeholder="Ex: Jhon"/>
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Ex: Marshon"/>
+                <label for="courriel">Email:</label>
+                <input type="email" name="email" id="courriel"/>
+            </div>
         </form>
-</aside>
-<footer>
-    <img id="logo_site_footer" src="images/logo.png">
-</footer>
+
+        <div id="partenaires">
+            <h2>Nos partenaires</h2>
+            <img>
+        </div>
+
+    </aside>
+    <footer>
+        <div id="last_minute">
+            <h4>Last Minute</h4>
+            <img id="photo_bottom_meilleures_offres" src="images/photo_plage_bandeau.jpg">
+        </div>
+
+    </footer>
+</div>
+
 <script src="script/main.js"></script>
 </body>
 </html>
