@@ -6,38 +6,18 @@
     box-sizing: border-box;
 }
 
-
-#wrapper{
-    width: 80%;
-    min-width: 900px;
-    max-width: 1200px;
-    margin: auto;
-    background-color: cadetblue;
-
-}
-
 header {
     padding-top: 20px;
     width: 100%;
+    border: 1px solid #E64C66;
 }
-
-#logo_site{
-    float: left;
-    margin-left: 10px;
-    height: 100px;
-
-}
-
-.logo_social{
-    height: 30px;
-}
-#banniere_photo{
-    height: 120px;
-}
-#menu_top{
+#menu_top {
     padding-top: 0;
     margin-left: 760px;
 }
+/*.logo_social{
+    height: 30px;
+}*/
 
 .menu_right li{
     display: inline-block;
@@ -56,23 +36,19 @@ header {
     width: 100px;
 }
 
-.menu_right li a:hover{
+/*.menu_right li a:hover{
     background-color: #999;
 
 }
 .menu_right li a:active{
     background-color: #fff278;
 
-}
+}*/
 
 #menu_principal{
     margin-top: 80px;
 }
 
-.menu{
-    float: right;
-
-}
 
 .menu li{
     display: inline-block;
@@ -81,7 +57,6 @@ header {
 }
 
 .menu li a{
-    float: left;
     text-align: center;
     padding: 0 15px 0 15px;
     height: 40px;
@@ -99,6 +74,10 @@ header {
 
 }
 
+#banniere_photo{
+    height: 120px;
+}
+
 #reseaux_sociaux {
     float: right;
     height: 10%;
@@ -111,23 +90,26 @@ header {
 }
 
 
-#main{
+main{
 
-    margin-top: 150px;
-    margin-left: 30px;
+    /*margin-top: 120px;*/
+    /*margin-left: 30px;*/
+    border: 1px solid #E64C66;
+    width: 70%;
+
 }
-
 #banniere_photo{
-    width: 80%;
+    width: 90%;
     height: 20%;
 }
 
+
 #forfaits{
     border: 1px solid whitesmoke;
-    width: 19%;
-    height: 15%;
-    margin-top: 200px;
-    margin-left: 30px;
+
+
+    /*margin-top: 200px;
+    margin-left: 30px;*/
 }
 .photo_meilleures_offres{
     width: 98%;
@@ -141,9 +123,45 @@ header {
 }
 aside{
     border: 1px solid whitesmoke;
+    width: 30%;
     float: right;
-    clear: left;
-    margin-right: 30px;
-    width: 20%;
+    vertical-align: top;
+
+
+}
+
+#partenaires img {
+    width: 40%;
+}
+footer {
+    width: 100%;
+    min-height: 20px;
+    background-color: #AEAEAE;
+}
+
+/*----------------------------page detail forfait--------------------------------------*/
+
+#detail_forfait img {
+    width: 500px;
+    border: 5px solid cadetblue;
+    padding: 20px;
+
+}
+
+#liste_forfait {
+    border: 2px solid white;
+    width: 500px;
+}
+
+.forfait {
+    display: inline-block;
+}
+
+.forfait a, .forfait dl {
+    display: table-cell;
+
+}
+
+#bouton_forfait {
 }
 
