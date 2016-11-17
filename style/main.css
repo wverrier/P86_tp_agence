@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
 
@@ -228,3 +229,172 @@ img#photo_bottom_meilleures_offres{
     height: 5%;
     width: 5%;
 }
+=======
+/* Reset*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 20px;
+    width: 100%;
+    border: 1px solid #E64C66;
+}
+#menu_top {
+    padding-top: 0;
+    margin-left: 760px;
+}
+/*.logo_social{
+    height: 30px;
+}*/
+
+.menu_right li{
+    display: inline-block;
+    background-color: lightsteelblue;
+    list-style-type: none;
+    height: 30px;
+}
+
+.menu_right li a{
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    height: 35px;
+    line-height: 30px;
+    width: 100px;
+}
+
+/*.menu_right li a:hover{
+    background-color: #999;
+
+}
+.menu_right li a:active{
+    background-color: #fff278;
+
+}*/
+
+#menu_principal{
+    margin-top: 80px;
+}
+
+
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+    background-color: darkorange;
+}
+
+.menu li a{
+    text-align: center;
+    padding: 0 15px 0 15px;
+    height: 40px;
+    line-height: 30px;
+    width: 150px;
+
+}
+
+.menu li a:hover{
+    background-color: #999;
+
+}
+.menu li a:active{
+    background-color: #fff278;
+
+}
+
+#banniere_photo{
+    height: 120px;
+}
+
+#reseaux_sociaux {
+    float: right;
+    height: 10%;
+
+}
+
+#facebook, #twitter{
+    float: right;
+
+}
+
+
+main{
+
+    /*margin-top: 120px;*/
+    /*margin-left: 30px;*/
+    border: 1px solid #E64C66;
+    width: 70%;
+
+}
+#banniere_photo{
+    width: 90%;
+    height: 20%;
+}
+
+
+#forfaits{
+    border: 1px solid whitesmoke;
+
+
+    /*margin-top: 200px;
+    margin-left: 30px;*/
+}
+.photo_meilleures_offres{
+    width: 98%;
+    padding: 10px;
+}
+#forfaits h4{
+    text-align: center;
+}
+#forfaits p{
+    padding-left: 10px;
+}
+aside{
+    border: 1px solid whitesmoke;
+    width: 30%;
+    float: right;
+    vertical-align: top;
+
+
+}
+
+#partenaires img {
+    width: 40%;
+}
+footer {
+    width: 100%;
+    min-height: 20px;
+    background-color: #AEAEAE;
+}
+
+/*----------------------------page detail forfait--------------------------------------*/
+
+#detail_forfait img {
+    width: 500px;
+    border: 5px solid cadetblue;
+    padding: 20px;
+
+}
+
+#liste_forfait {
+    border: 2px solid white;
+    width: 500px;
+}
+
+.forfait {
+    display: inline-block;
+}
+
+.forfait a, .forfait dl {
+    display: table-cell;
+
+}
+
+#bouton_forfait {
+}
+
+>>>>>>> e1c7d61722726a8a7571c47dc2a3f5e6c2b3099d
