@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Billetterie</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+    <link rel="stylesheet" href="style/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="style/main_for.css"/>
+    <link rel="stylesheet" href="style/formulaire.css"/>
+
+
+</head>
+<body>
+<div id="wrapper">
+    <h2>Billetterie</h2>
+    <div id="contenu">
+        <form id="form" name="form">
+            <div>
+                <label for="nom">Nom:</label>
+                <input name="nom" id="nom" type="text"/>
+            </div>
+            <div>
+                <label for="email">Courriel:</label>
+                <input name="email" id="email" type="text"/>
+            </div>
+            <div>
+                <label for="depart">Au depart de :</label>
+                <input name="depart" id="depart" type="text"/>
+            </div>
+            <div>
+                <label for="destination">A destination de :</label>
+                <input name="destination" id="destination" type="text"/>
+            </div>
+            <div>
+                <label for="date_depart">Date de depart</label>
+                <input type="date" name="date_depart" id="date_depart"/>
+                <label for="date_retour">Date de retour</label>
+                <input type="date" name="date_retour" id="date_retour"/>
+
+            </div>
+            <div>
+                <label id="titre_enfant"> Enfants :</label>
+                <label for="yes">Oui</label>
+                <input type="radio" name="yes" id="yes" value="yes"/>
+                <br/>
+                <label for="No">Non</label>
+                <input type="radio" name="No" id="No" value="No"/>
+            </div>
+            <div>
+                <label for="classe">Classe:</label>
+                <select name="classe" id="classe">
+                    <option value="-1">Choisir...</option>
+                    <option value="ec">Economique</option>
+                    <option value="af">Affaire</option>
+                    <option value="pr">Premium</option>
+
+                </select>
+
+            </div>
+
+            <div>
+                <label for="commentaire">Commentaire:</label>
+                <textarea rows="10" cols="50" name="commentaire" id="commentaire">Valeur par défaut dans le content de l'élément textarea</textarea>
+            </div>
+            <div>
+                <label for="accepte">J'accepte les conditions:</label>
+                <input type="checkbox" name="accepte" id="accepte" type="text" value="accepte"/>
+            </div>
+            <div>
+                <input type="submit" value="Réserver"/>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+<script src="script/P86_TP_forfaits.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="script/main.js"></script>
+<script src="script/formulaire.js"></script>
+</body>
+</html>
