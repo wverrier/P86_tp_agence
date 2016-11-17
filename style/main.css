@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+
+}
+
+html{
+    font-size: 16px;
+    font-family: Arial;
+}
+/*---------------------BoDY--------------------*/
+body{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(153, 153, 153, 0.03);
+
+}
+/*-------------------Header---------------*/
+header{
+
+}
+/*--menu a droite--*/
+div#main_right{
+    position: relative;
+}
+.menu_right{
+    width: 80%;
+    text-align: right;
+    position: relative;
+    left: 20%;
+
+}
+ul.menu_right{
+    box-sizing: border-box;
+    margin:0;
+}
+
+ul.menu_right li{
+    display: inline-block;
+    background-color: #669fc1;
+    width:20%;
+    text-align: center;
+
+}
+ul.menu_right a{
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+#logo_site{
+    height: 9%;
+    width: 9%;
+    position: absolute;
+    top:1%;
+}
+/*--Image du header--*/
+div#main_menu{
+    position: relative;
+}
+/*--menu principal--*/
+
+.menu{
+    height: 10%;
+}
+ul.menu{
+    box-sizing: border-box;
+    list-style-type: none;
+    background-color: rgba(20, 20, 20, 0.06);
+    position: relative;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+ul.menu li{
+    display: inline-block;
+    width:15%;
+    text-align: center;
+    height: 2%;
+}
+
+ul.menu a{
+    color: #000000;
+    text-decoration: none;
+    font-size:1rem;
+}
+.logo_social {
+    position: absolute;
+    height: 60%;
+    top:20%;
+    left:90%;
+}
+/*------------Aside Carrousel-----------------*/
+aside#carrousel{
+    text-align: center;
+    background-color: #669fc1;
+}
+/*------Image bateau------*/
+#banniere_photo{
+    width: 50%;
+    margin: 0.5% 0 0 0;
+}
+
+/*---------MAIN----------*/
+main{
+    height: 50%;
+    width: 60%;
+}
+h2{
+    font-size:1.6rem;
+}
+.photo_meilleures_offres{
+    height: 100%;
+    width: 100%;
+}
+div.offres_home{
+    width:30%;
+    position: relative;
+}
+div.offres_home_1{
+    /*box-sizing: border-box;*/
+    display: inline-block;
+    width:30%;
+    position: relative;
+}
+h3{
+    font-size: 1rem;
+    margin: 0 0 5% 0;
+}
+.paragraphe_meilleures_offres{
+    font-size: 0.8rem;
+    text-align: left;
+}
+.prix_meilleures_offres{
+    font-size: 1.5rem;
+    color: #a02713;
+}
+button{
+    padding: 3% 2% 3% 2%;
+    color: #FFF;
+    background-color: #669fc1;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid #669fc1;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+}
+
+/*---------------Aside inscription-----------*/
+aside#inscription{
+
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    top:83%;
+    left:83%;
+}
+div#saisie{
+    background-color: #669fc1;
+    padding-top: 5%;
+}
+
+input[type="text"],
+input[type="email"]{
+    border: none;
+    font-size: 0.8rem;
+    margin-left: 2%;
+    padding: 7%;
+    width: 80%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.99);
+    /*box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;*/
+    margin-bottom: 30px;
+
+}
+/*----------------Form Aside-----------*/
+h4{
+    font-size: 1rem;
+    text-align: center;
+    color: #000000;
+    padding-top: 6%;
+}
+form{
+    background-color: #669fc1;
+}
+.logo_partenaires{
+    height: 35%;
+    width: 35%;
+}
+input[type="submit"] {
+    padding: 3% 2% 3% 2%;
+    color: #FFF;
+    background-color: #436277;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid #669fc1;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1);
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 3%;
+    left: 25%;
+}
+
+/*------------Form A decouvrir---------------*/
+input[type="checkbox"]{
+    position: relative;
+    left: 3%;
+    padding-left: 25px;
+}
+
+/*----------------------Footer-----------------*/
+img#photo_bottom_meilleures_offres{
+    margin-left: 10%;
+    text-align: center;
+    height: 75%;
+    width: 75%;
+}
+#logo_site_footer{
+    position: relative;
+    left: 10%;
+    height: 5%;
+    width: 5%;
+}

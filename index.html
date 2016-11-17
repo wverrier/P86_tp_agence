@@ -18,8 +18,8 @@
             -->
         </ul>
     </div>
-    <img id="logo_site" src="images/logo.png">
-    <div id="main">
+    <a href="index.html"><img id="logo_site" src="images/logo.png" alt="logo du site"></a>
+    <div id="main_menu">
         <ul class="menu"><!--
             -->
             <li><a id="menu_home" href="#"><p>Home</p></a></li><!--
@@ -33,32 +33,35 @@
             <li><a id="menu_hotel" href="#"><p>Contact</p></a></li><!--
             -->
         </ul>
+        <a href="#"><img class="logo_social" src="images/facebook.png" alt="logo facebook"></a>
+        <a href="#"><img class="logo_social" src="images/twitter.png"alt="logo twitter"></a>
     </div>
-    <img class="logo_social" src="images/facebook.png">
-    <img class="logo_social" src="images/twitter.png">
 </header>
 
 <!-- A modifier-->
-<aside><!--lui donner un div ou une classe-->
+<aside id="carrousel"><!--lui donner un div ou une classe-->
     <img id="banniere_photo" src="images/Bateau.jpg">
 </aside>
 
 <main>
     <h2>Meilleures offres | Tout voir</h2>
+    <div class="offres_home">
     <img class="photo_meilleures_offres" src="images/fond_ecran_plage.jpg">
     <h3>Lorem ipsum</h3>
     <p class="paragraphe_meilleures_offres">dollor sit amet consectetur adipiscing elit.Quisque sodales ipsum vitae</p>
     <p class="prix_meilleures_offres">800$</p>
     <button type="button">Reserver</button>
-    <!-- Repeter le code ci-dessus 3x -->
-    <h4>Last Minute</h4>
-    <img id="photo_bottom_meilleures_offres" src="images/photo_plage_bandeau.jpg">
-</main>
+    </div>
 
-<aside><!--lui donner un div ou une classe-->
+    <div class="offres_home_1">
+        <img class="photo_meilleures_offres" src="images/fond_ecran_plage.jpg">
+        <h3>Lorem ipsum</h3>
+        <p class="paragraphe_meilleures_offres">dollor sit amet consectetur adipiscing elit.Quisque sodales ipsum vitae</p>
+        <p class="prix_meilleures_offres">800$</p>
+        <button type="button">Reserver</button>
+</div>
+<aside id="inscription"><!--lui donner un div ou une classe-->
     <h2>Inscrivez-vous</h2>
-
-    <form>
         <div id="saisie">
             <label for="nom">Nom :</label>
             <input type="text" name="nom" id="nom" placeholder="Ex: Jhon"/>
@@ -66,13 +69,16 @@
             <input type="text" name="prenom" id="prenom" placeholder="Ex: Marshon"/>
             <label for="courriel">Email:</label>
             <input type="email" name="email" id="courriel"/>
+            <input type="submit" name="confirm" id="confirm">
         </div>
+
+    <form>
         <div>
-            <h2>Nos partenaire</h2>
+            <h4>Nos partenaire</h4>
             <img class="logo_partenaires" src="images/facebook.png">
         </div>
-        <div>
-            <label>A decouvrir</label>
+            <h4>A decouvrir</h4>
+        <div id="form_checkbox">
             <input type="checkbox" name="hotel_1" id="hotel_1"/>
             <label for="hotel_1">Hotel</label>
             <input type="checkbox" name="hotel_2" id="hotel_2"/>
@@ -80,10 +86,15 @@
             <input type="checkbox" name="hotel_3" id="hotel_3"/>
             <label for="hotel_3">Hotel</label>
         </div>
-        </form>
+    </form>
 </aside>
+    <!-- Repeter le code ci-dessus 3x -->
+</main>
+
 <footer>
-    <img id="logo_site_footer" src="images/logo.png">
+    <h4>Last Minute</h4>
+    <img id="photo_bottom_meilleures_offres" src="images/photo_plage_bandeau.jpg">
+    <a href="index.html"><img id="logo_site_footer" src="images/logo.png"></a>
 </footer>
 <script src="script/main.js"></script>
 </body>

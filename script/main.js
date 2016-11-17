@@ -1,3 +1,4 @@
 /**
- * Created by wverrier on 2016-11-08.
+ * Created by willy on 09/11/2016.
  */
+"use strict";
