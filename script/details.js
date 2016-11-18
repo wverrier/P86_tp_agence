@@ -8,7 +8,7 @@ $(function () {
     console.log('URL de la page : ', window.location);
     // Est-ce qu'il y a un paramètre dans l'URL ?
     forfait_id = getParameterByName('forfait_id');
-    console.log('Valeur de la categorie : ', forfait_id);
+    console.log('Valeur indice forfait : ', forfait_id);
     if (false) { // Si idforfait n'est pas valide
         // Redirection vers page accueil
     }
