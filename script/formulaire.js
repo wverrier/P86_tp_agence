@@ -41,7 +41,7 @@ function valider_formulaire(event) {
         champ_ville.next().text('Veuillez sélectionner une ville.');
     } else {
 
-        if ( champ_ville.next().is('p.error_msg')) { 
+        if ( champ_ville.next().is('p.error_msg')) {
             champ_ville.next().remove();
         }
         champ_ville.removeClass('error');

@@ -1,0 +1,43 @@
+div#container{
+    width: 50%;
+    margin: 5%
+}
+#info{
+    width: 500px;
+    border: 1px solid #999;
+    padding: 0 10px;
+}
+
+#info div {
+    width: inherit;
+    background-color: inherit;
+    padding:10px;
+}
+
+#info-nav{
+    margin: 0;
+    padding: 3px 0;
+    width: 100%;
+    list-style: none;
+}
+#info-nav li{
+    display: inline;
+    background: rgba(20, 20, 20, 0.06);
+    border: 1px solid #888;
+    border-bottom: 0;
+    margin-right:2px;
+    padding: 3px;
+}
+#info-nav li a:hover{
+    color:#669fc1;
+    text-decoration: none;
+}
+#info-nav li.courant{
+    background: #fff9ff;
+    padding-bottom: 4px;
+
+}
+
+#celebs {
+    clear: both;
+}
