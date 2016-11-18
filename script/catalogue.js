@@ -39,7 +39,8 @@ function afficher_catalogue() {
                     .append('<p><strong>Places disponibles :</strong>' + forfait.places_dispo + '</p>')
                     .append('<p><strong>Nombre animaux admis : </strong>' + forfait.nbr_max_animaux_admis + '</p>')
                     .append('<p><strong>Prix par animal : </strong>' + forfait.prix_animal + '</p>')
-                    .append('<a href="reservation.html?forfait_id=' + index + '">Réserver</a>');
+                    .append('<a href="details.html?forfait_id=' + index + '">Détails</a>')
+                    .append('<a href="formulaire.html?forfait_id=' + index + '">Réserver</a>');
             switch (forfait.categorie.toLowerCase()) {
                 case 'nature':
                     li_item.appendTo(ul_forfaits_nature);
