@@ -1,9 +1,10 @@
 
 
-#owl-demo {
-    margin-left: 5%;
-    display: block;
-    width: 25%;
-    height: 285%;
+#une_fois{
+width: 10%;
+    height: 30%;
+    border: none;
+    bottom: 0;
+    left: 0;
+    position: inherit;
 }
-
