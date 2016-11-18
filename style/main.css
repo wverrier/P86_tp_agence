@@ -1,6 +1,7 @@
-*{
-    padding: 0;
+/* Reset*/
 
+*{
+    padding:0;
 }
 
 html{
@@ -100,6 +101,14 @@ aside#carrousel{
     width: 50%;
     margin: 0.5% 0 0 0;
 }
+/*--------------------------------forfait accueil------------------------------------------------*/
+#forfaits{
+    border: 1px solid whitesmoke;
+    width: 19%;
+    height: 15%;
+
+    margin-left: 30px;
+}
 
 /*---------MAIN----------*/
 main{
@@ -150,70 +159,114 @@ button{
     left: 50%;
 }
 
-/*---------------Aside inscription-----------*/
-aside#inscription{
-
-    width: 15%;
-    height: 50%;
-    position: absolute;
-    top:83%;
-    left:83%;
-}
-div#saisie{
-    background-color: #669fc1;
-    padding-top: 5%;
-}
-
-input[type="text"],
-input[type="email"]{
-    border: none;
-    font-size: 0.8rem;
-    margin-left: 2%;
-    padding: 7%;
-    width: 80%;
-    background-color: rgb(243, 243, 243);
-    border-radius: 5px;
-    color: rgba(0, 0, 0, 0.99);
-    /*box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;*/
-    margin-bottom: 30px;
+.forfait a, .forfait dl {
+    display: table-cell;
 
 }
+
+/*input[type="text"],*/
+/*input[type="email"]{*/
+    /*border: none;*/
+    /*font-size: 0.8rem;*/
+    /*margin-left: 2%;*/
+    /*padding: 7%;*/
+    /*width: 80%;*/
+    /*background-color: rgb(243, 243, 243);*/
+    /*border-radius: 5px;*/
+    /*color: rgba(0, 0, 0, 0.99);*/
+    /*!*box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;*!*/
+    /*margin-bottom: 30px;*/
+
+/*}*/
 /*----------------Form Aside-----------*/
-h4{
-    font-size: 1rem;
-    text-align: center;
-    color: #000000;
-    padding-top: 6%;
-}
-form{
-    background-color: #669fc1;
-}
-.logo_partenaires{
-    height: 35%;
-    width: 35%;
-}
-input[type="submit"] {
-    padding: 3% 2% 3% 2%;
-    color: #FFF;
-    background-color: #436277;
-    font-size: 1.5rem;
-    text-align: center;
-    border-radius: 5px;
-    width: 50%;
-    border: 1px solid #669fc1;
-    box-shadow: 0 -1px 0 rgba(255,255,255,0.1);
-    margin-bottom: 10px;
-    position: relative;
-    bottom: 3%;
-    left: 25%;
+/*h4{*/
+    /*font-size: 1rem;*/
+    /*text-align: center;*/
+    /*color: #000000;*/
+    /*padding-top: 6%;*/
+/*}*/
+/*form{*/
+    /*background-color: #669fc1;*/
+/*}*/
+/*.logo_partenaires{*/
+    /*height: 35%;*/
+    /*width: 35%;*/
+/*}*/
+/*input[type="submit"] {*/
+    /*padding: 3% 2% 3% 2%;*/
+    /*color: #FFF;*/
+    /*background-color: #436277;*/
+    /*font-size: 1.5rem;*/
+    /*text-align: center;*/
+    /*border-radius: 5px;*/
+    /*width: 50%;*/
+    /*border: 1px solid #669fc1;*/
+    /*box-shadow: 0 -1px 0 rgba(255,255,255,0.1);*/
+    /*margin-bottom: 10px;*/
+    /*position: relative;*/
+    /*bottom: 3%;*/
+    /*left: 25%;*/
+/*}*/
+
+/*!*------------Form A decouvrir---------------*!*/
+/*input[type="checkbox"]{*/
+    /*position: relative;*/
+    /*left: 3%;*/
+    /*padding-left: 25px;*/
+/*}*/
+
+/*------------------Galerie---------------------------------*/
+
+a {
+    border:none;
+    text-decoration:none;
 }
 
-/*------------Form A decouvrir---------------*/
-input[type="checkbox"]{
+.galerie{
+    border:2px solid #CCC;
+    width:730px;
     position: relative;
-    left: 3%;
-    padding-left: 25px;
+    margin:25px;
+    padding:5px;
 }
+
+.galerie .vignette img {
+    border:2px solid #CCC;
+    padding:0;
+    margin:5px;
+}
+
+.galerie .vignette img:hover {
+    border:2px solid #fff;
+}
+
+.galerie .vignette span{
+    background-color:#FFF;
+    padding: 5px;
+    position:absolute;
+    visibility: hidden;
+    text-align:center;
+}
+/*-----------au survol affichage----------*/
+.galerie .vignette:hover span{
+    visibility: visible;
+    top: 30px;
+    left: 250px;
+    z-index: 50;
+}
+
+.galerie .vignette span img, .galerie .vignette span img:hover{
+    border:none;
+}
+
+.galerie .vignette span p{
+    color:#000;
+    font-weight:bold;
+    font-size:16px;
+    margin:0;
+    padding:5px;
+}
+
 
 /*----------------------Footer-----------------*/
 img#photo_bottom_meilleures_offres{

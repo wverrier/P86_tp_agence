@@ -16,7 +16,7 @@ form {
     max-width: 300px;
     margin: 10px auto;
     padding: 10px 20px;
-    background: #f4f7f8;
+    background:  #669fc1;
     border-radius: 8px;
 }
 
@@ -60,7 +60,7 @@ select {
 input[type="submit"] {
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color: #669fc1;
+    background-color: #486e86;
     font-size: 18px;
     text-align: center;
     font-style: normal;

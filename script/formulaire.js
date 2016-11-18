@@ -9,7 +9,7 @@ $(function() {
     console.log("DOM construit");
     var formulaire = $('#form');
     formulaire.on('submit', valider_formulaire);
-    formulaire.find(':input').on('change', gerer_changement);
+    // formulaire.find(':input').on('change', gerer_changement);
 
 });
 
