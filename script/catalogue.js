@@ -24,8 +24,20 @@ function afficher_catalogue() {
             var li_item =
                 $('<li>')
                     .append('<h2>' + forfait.nom + '</h2>')
-                    .append('<img src="' + forfait.photo + '" alt="photo forfait" />')
+                    .append('<img src="images/nature.jpg' + forfait.photo + '" alt="petite_photo" />')
                     .append('<p>' + forfait.description + '</p>')
+                    .append('<p>' + forfait.duree + '</p>')
+                    .append('<p>' + forfait.debut_saison + '</p>')
+                    .append('<p>' + forfait.fin_saison + '</p>')
+                    .append('<p>' + forfait.mois_basse_saison + '</p>')
+                    .append('<p>' + forfait.prix_basse_saison + '</p>')
+                    .append('<p>' + forfait.mois_moy_saison + '</p>')
+                    .append('<p>' + forfait.prix_moy_saison + '</p>')
+                    .append('<p>' + forfait.mois_haute_saison + '</p>')
+                    .append('<p>' + forfait.prix_haute_saison + '</p>')
+                    .append('<p>' + forfait.places_dispo + '</p>')
+                    .append('<p>' + forfait.nbr_max_animaux_admis + '</p>')
+                    .append('<p>' + forfait.prix_animal + '</p>')
                     .append('<a href="reservation.html?forfait_id=' + index + '">Réserver</a>');
             switch (forfait.categorie.toLowerCase()) {
                 case 'nature':
