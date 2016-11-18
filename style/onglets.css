@@ -1,11 +1,17 @@
 div#container{
-    width: 50%;
+    width: 100%;
     margin: 5%
+
 }
 #info{
     width: 500px;
     border: 1px solid #999;
     padding: 0 10px;
+
+}
+
+#info li{
+    display: inline;
 }
 
 #info div {
