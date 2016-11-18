@@ -1,0 +1,29 @@
+form div {
+    margin: 0 0 10px 160px;
+}
+
+
+form div label {
+    width: 140px;
+    text-align: right;
+    margin: 5px 5px 0 -160px;
+}
+
+#form .error {
+    border : 2px solid red;
+}
+
+/* Signaler erreur les checkbox  */
+#form .cberror {
+    outline-color : red;
+    outline-style : solid;
+    outline-width : thin;
+}
+
+/* Signaler erreur les checkbox  */
+#form .error_msg {
+    display : inline-block;
+    margin:0;
+    color:red;
+}
+

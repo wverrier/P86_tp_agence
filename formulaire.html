@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>IsiVoyage</title>
+
+    <link rel="stylesheet" href="style/main_formulaire.css"/>
+    <link rel="stylesheet" href="style/formulaire.css"/>
+    <link rel="stylesheet" href="style/main.css"/>
+
+</head>
+<body>
+<header id="main_right">
+    <div id="wrapper">
+        <ul class="menu_right"><!--
+            -->
+            <li><a id="menu_connect" href="#"><p>Connexion</p></a></li><!--
+            -->
+            <li><a id="menu_inscription" href="#"><p>Inscription</p></a></li><!--
+            -->
+            <li><a id="menu_contact" href="#"><p>Contact</p></a></li><!--
+            -->
+        </ul>
+    </div>
+    <a href="index.html"><img id="logo_site" src="images/logo.png" alt="logo du site"></a>
+    <div id="main_menu">
+        <ul class="menu"><!--
+            -->
+            <li><a id="menu_home" href="index.html"><p>Home</p></a></li><!--
+            -->
+            <li><a id="menu_offres" href="catalogue.html"><p>Catalogue</p></a></li><!--
+            -->
+            <li><a id="menu_croissieres" href="#"><p>Croisières</p></a></li><!--
+            -->
+            <li><a id="menu_vols" href="#"><p>Vols</p></a></li><!--
+            -->
+            <li><a id="menu_hotel" href="formulaire.html"><p>Formulaire</p></a></li><!--
+            -->
+        </ul>
+        <a href="https://facebook.com"><img class="logo_social" src="images/facebook.png" alt="logo facebook"></a>
+        <a href="https://twitter.com/?lang=fr"><img class="logo_social" src="images/twitter.png"alt="logo twitter"></a>
+    </div>
+</header>
+<main id="main_form">
+    <div>
+        <h2>Billetterie</h2>
+        <div id="contenu">
+            <form id="form" name="form">
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input name="nom" id="nom" type="text"/>
+                </div>
+                <div>
+                    <label for="email">Courriel:</label>
+                    <input name="email" id="email" type="text"/>
+                </div>
+                <div>
+                    <label for="depart">Au depart de :</label>
+                    <input name="depart" id="depart" type="text"/>
+                </div>
+                <div>
+                    <label for="destination">A destination de :</label>
+                    <input name="destination" id="destination" type="text"/>
+                </div>
+                <div>
+                    <label for="date_depart">Date de depart</label>
+                    <input type="date" name="date_depart" id="date_depart"/>
+                    <label for="date_retour">Date de retour</label>
+                    <input type="date" name="date_retour" id="date_retour"/>
+
+                </div>
+                <div>
+                    <label id="titre_enfant"> Enfants :</label>
+                    <label for="yes">Oui</label>
+                    <input type="radio" name="yes" id="yes" value="yes"/>
+                    <br/>
+                    <label for="No">Non</label>
+                    <input type="radio" name="No" id="No" value="No"/>
+                </div>
+                <div>
+                    <label for="classe">Classe:</label>
+                    <select name="classe" id="classe">
+                        <option value="-1">Choisir...</option>
+                        <option value="ec">Economique</option>
+                        <option value="af">Affaire</option>
+                        <option value="pr">Premium</option>
+
+                    </select>
+
+                </div>
+
+                <div>
+                    <label for="commentaire">Commentaire:</label>
+                    <textarea rows="10" cols="50" name="commentaire" id="commentaire">Valeur par défaut dans le content de l'élément textarea</textarea>
+                </div>
+                <!--<div>-->
+                    <!--<label for="accepte">J'accepte les conditions:</label>-->
+                    <!--<input type="checkbox" name="accepte" id="accepte" type="text" value="accepte"/>-->
+                <!--</div>-->
+                <div>
+                    <input type="submit" value="Réserver"/>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <h4>Last Minute</h4>
+    <img id="photo_bottom_meilleures_offres" src="images/photo_plage_bandeau.jpg">
+    <a href="index.html"><img id="logo_site_footer" src="images/logo.png"></a>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="script/formulaire.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>

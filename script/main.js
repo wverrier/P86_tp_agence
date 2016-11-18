@@ -1,7 +1,7 @@
 /**
  * Created by gpnissar on 2016-11-14.
  */
-
+"use strict";
 $(function(){
     console.log(encodeURI('?categorie=Croisières'));
     console.log(encodeURI('?categorie=Sports d\'hiver'));

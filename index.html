@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>IsiVoyage</title>
     <link rel="stylesheet" href="style/main.css"/>
+    <link rel="stylesheet" href="style/carousel.css"/>
 </head>
 <body>
-<div id="wrapper">
-    <header id="main_right">
-        <div id="menu_top">
-            <ul class="menu_right"><!--
+<header id="main_right">
+    <div id="wrapper">
+        <ul class="menu_right"><!--
             -->
                 <li><a id="menu_connect" href="#"><p>Connexion</p></a></li><!--
             -->
@@ -32,14 +32,22 @@
             -->
                 <li><a id="menu_hotel" href="#"><p>Contact</p></a></li><!--
             -->
-            </ul>
-        </div>
-    </header>
-    <div id="main">
+        </ul>
+        <a href="https://facebook.com"><img class="logo_social" src="images/facebook.png" alt="logo facebook"></a>
+        <a href="https://twitter.com/?lang=fr"><img class="logo_social" src="images/twitter.png"alt="logo twitter"></a>
+    </div>
+</header>
 
-        <img id="banniere_photo" src="images/Bateau.jpg" alt="un bateau">
+<!-- A modifier-->
+<!--<aside id="carrousel">&lt;!&ndash;lui donner un div ou une classe&ndash;&gt;-->
+    <div id="owl-demo">
+    <div class="item"><img src="images/Bateau.jpg"></div>
+    <div class="item"><img src="images/Bateau.jpg"></div>
+    <div class="item"><img src="images/Bateau.jpg"></div>
+    </div>
+<!--</aside>-->
 
-
+<main>
             <nav>
                 <a href="?">Page</a>
                 <a href="?categorie=Nature">Nature</a>
@@ -47,16 +55,17 @@
                 <a href="?categorie=Croisi%C3%A8res">Croisières</a>
             </nav>
         <div id="forfaits">
-            <h3>Meilleures offres | Tout voir</h3>
+            <h2>Meilleures offres | Tout voir</h2>
+            <div class="offres_home">
             <img class="photo_meilleures_offres" src="images/fond_ecran_plage.jpg">
-            <h4>Lorem ipsum</h4>
+            <h3>Lorem ipsum</h3>
             <p class="paragraphe_meilleures_offres">dollor sit amet consectetur adipiscing elit.Quisque sodales ipsum
                 vitae</p>
             <p class="prix_meilleures_offres">800$</p>
             <ul id="forfaits_nature"></ul>
             <ul id="forfaits_croisieres"></ul>
             <ul id="forfaits_sports_hiver"></ul>
-            <button id="reserver_forfait" type="button">Reserver</button>
+            <button type="button">Reserver</button>
         </div>
         <!-- Repeter le code ci-dessus 3x -->
 
@@ -70,12 +79,15 @@
 
     </div>
 
-
+</main>
     <footer>
         <p>copyright</p>
     </footer>
-</div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="script/jquery-1.9.1.min.js"></script>
+<script src="script/owl.carousel.min.js"></script>
+<script src="script/carousel.js"></script>
 <script src="script/main.js"></script>
+
 </body>
 </html>
