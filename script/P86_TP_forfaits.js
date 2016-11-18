@@ -21,8 +21,8 @@ var P86_TP_forfaits = [
         places_dispo: 98,
         nbr_max_animaux_admis: 2,
         prix_animal: 99,
-        photo: "images/images-modal/aventure_01.jpg",
-        photo_cat: "images/categorie/nature.jpg"
+        photo: "images/nature.jpg",
+        photo_cat: "images/nature.jpg"
     },
     {
         nom: "Capitales scandinaves",
@@ -40,7 +40,7 @@ var P86_TP_forfaits = [
         places_dispo: 105,
         nbr_max_animaux_admis: 2,
         prix_animal: 156,
-        photo: "images/images-modal/Banff_Parke.jpg",
+        photo: "images/nature.jpg",
         photo_cat: "images/categorie/croisiere_01.jpg"
     },
     {
