@@ -209,8 +209,18 @@ button{
     /*position: relative;*/
     /*left: 3%;*/
     /*padding-left: 25px;*/
-/*}*/
+/*-------------------------------page detail-----------------------------*/
 
+.forfaits {
+    border: 1px solid cadetblue;
+    width: 80%;
+}
+/*Page details : differencier le bouton submit de celui du formulaire*/
+#resa_details{
+    width: 15%;
+
+
+}
 /*------------------Galerie---------------------------------*/
 
 a {
