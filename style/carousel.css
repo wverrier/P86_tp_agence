@@ -1,10 +1,16 @@
 
 
 #une_fois{
-width: 10%;
-    height: 30%;
+    display: block;
+    padding: 1% 0.5%;
     border: none;
-    bottom: 0;
-    left: 0;
+    left: 35%;
+    width: 15%;
     position: inherit;
+}
+#div_carrousel{
+    margin-left: 35%;
+}
+.img_carrousel{
+    width: 70%;
 }
