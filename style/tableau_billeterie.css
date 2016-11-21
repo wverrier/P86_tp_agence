@@ -1,0 +1,57 @@
+table {/* 1 */
+    width: 25em;
+    border-collapse: separate;
+    border-spacing: 2px;
+    caption-side: bottom;
+}
+td, th { /* 2 */
+    padding: 6px 12px;
+}
+th { /* 3 */
+    text-align: left;
+}
+td:last-child, th:last-child { /* 4 */
+    text-align: right;
+}
+table caption { /* 5 */
+    color: #555;
+    font-style: italic;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+tr:nth-child(odd) { /* 7 */
+    background: #eee;
+}
+tr:nth-child(even) { /* 7 */
+    background: #ddd;
+}
+tr:first-child { /* 8 */
+    background: #669fc1;
+    color: white;
+}
+table td:empty { /* 9 */
+    background: white;
+}
+table tr + tr:hover { /* 10 */
+    background: #bbb;
+    color:white;
+}
+table tr + tr td:hover, table tr + tr th:hover { /* 11 */
+    background: #777;
+    cursor:pointer;
+}
+fieldset {
+    width:500px;
+}
+#nb_billet input{
+    width: 46px;
+}
+#div_tableau {
+    position: relative;
+    left:25%;
+    top:60px;
+}
+#bouton_tableau{
+    position: inherit;
+
+}
