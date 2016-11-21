@@ -3,10 +3,13 @@
  */
 "use strict";
 $(function(){
+/*
     console.log(encodeURI('?categorie=Croisières'));
     console.log(encodeURI('?categorie=Sports d\'hiver'));
     console.log(encodeURI('?categorie=Nature'));
+*/
 
+/*
     console.log('URL de la page : ' , window.location);
     // Est-ce qu'il y a un paramètre dans l'URL ?
     var categorie_url = getParameterByName('categorie');
@@ -36,6 +39,7 @@ $(function(){
             // li_forfait_jQ.css('background-color','blue');
         }
     });
+*/
 });
 
 /**
