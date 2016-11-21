@@ -8,7 +8,7 @@ var P86_TP_forfaits = [
     {
         nom: "L'atlantique emblématique",
         categorie: "Croisières",
-        description: "Le produit 1 bla bla bla...",
+        description: "Traversez l'atlantique à bord d'un paquebot de rêve",
         duree: 14,
         debut_saison: "2016-09-01",
         fin_saison: "2017-05-31",
@@ -27,7 +27,7 @@ var P86_TP_forfaits = [
     {
         nom: "Capitales scandinaves",
         categorie: "Croisières",
-        description: "Le produit 1 bla bla bla...",
+        description: "Découvrez de magnifiques paysages à bord de notre paquebot de luxe",
         duree: 18,
         debut_saison: "2016-04-01",
         fin_saison: "2016-10-31",
@@ -47,7 +47,7 @@ var P86_TP_forfaits = [
         numero: 2,
         nom: "Du groenland au St Laurent",
         categorie: "Croisières",
-        description: "Le produit 1 bla bla bla...",
+        description: "Une croisière fait sur mesure pour ceux qui veulent se reposer.",
         duree: 16,
         debut_saison: "2016-04-01",
         fin_saison: "2016-12-31",
@@ -66,7 +66,7 @@ var P86_TP_forfaits = [
     {
         nom: "Croisière des ours blancs",
         categorie: "Croisières",
-        description: "Le produit 1 bla bla bla...",
+        description: "A la recherche des ours blancs, dans un magnifique paysage teint en blanc",
         duree: 12,
         debut_saison: "2016-05-01",
         fin_saison: "2016-11-30",
@@ -85,7 +85,7 @@ var P86_TP_forfaits = [
     {
         nom: "Motoneige (Charlevoix, Québec)",
         categorie: "Sports d'hiver",
-        description: "Le produit 1 bla bla bla...",
+        description: "Vitesse et sauts vertigineux dans la neige garanti!",
         duree: 1,
         debut_saison: "2016-12-01",
         fin_saison: "2017-04-30",
@@ -104,7 +104,7 @@ var P86_TP_forfaits = [
     {
         nom: "Sommets du St Laurent en ski",
         categorie: "Sports d'hiver",
-        description: "Le produit 1 bla bla bla...",
+        description: "Si l'escalade en plein hiver vous tente alors suivez-nous!",
         duree: 1,
         debut_saison: "2016-12-01",
         fin_saison: "2017-04-30",
@@ -123,7 +123,7 @@ var P86_TP_forfaits = [
     {
         nom: "ski de fond raquette à Tremblant",
         categorie: "Sports d'hiver",
-        description: "Le produit 1 bla bla bla...",
+        description: "Amateur de ski de fond! Départ pour l'aventure.",
         duree: 1,
         debut_saison: "2016-12-01",
         fin_saison: "2017-04-30",
@@ -142,7 +142,7 @@ var P86_TP_forfaits = [
     {
         nom: "Via ferrata des glaces",
         categorie: "Sports d'hiver",
-        description: "Le produit 1 bla bla bla...",
+        description: "Amateur de ski de fond! Départ pour l'aventure. ",
         duree: 1,
         debut_saison: "2017-01-01",
         fin_saison: "2017-03-31",
@@ -161,7 +161,7 @@ var P86_TP_forfaits = [
     {
         nom: "Le grand nord en hydravion",
         categorie: "Nature",
-        description: "Le produit 1 bla bla bla...",
+        description: "Une vue aérienne des plus beaux paysages. ",
         duree: 8,
         debut_saison: "2016-07-15",
         fin_saison: "2016-09-15",
@@ -180,7 +180,7 @@ var P86_TP_forfaits = [
     {
         nom: "Chiens et gîtes du grand nord",
         categorie: "Nature",
-        description: "Le produit 1 bla bla bla...",
+        description: "Si vivre à la dure vous tente, ce voyage est faît pour vous",
         duree: 7,
         debut_saison: "2016-10-01",
         fin_saison: "2017-05-31",
@@ -199,7 +199,7 @@ var P86_TP_forfaits = [
     {
         nom: "Au sommet de l'Everest",
         categorie: "Nature",
-        description: "Le produit 1 bla bla bla...",
+        description: "Armez vous de vos mousquetons, départ pour l'Éverest",
         duree: 69,
         debut_saison: "2016-01-01",
         fin_saison: "2016-12-31",
@@ -218,7 +218,7 @@ var P86_TP_forfaits = [
     {
         nom: "Sermilik, la route des icebergs",
         categorie: "Nature",
-        description: "Le produit 1 bla bla bla...",
+        description: "Venez découvrir les glaciers avant qu'ils ne fondent",
         duree: 15,
         debut_saison: "2016-06-15",
         fin_saison: "2016-09-15",
