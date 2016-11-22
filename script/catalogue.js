@@ -27,18 +27,7 @@ function afficher_catalogue() {
                     .append('<h2>' + forfait.nom + '</h2>')
                     .append('<img src="images/nature.jpg" alt="petite_photo"/>')
                     .append('<p><strong>Description : </strong>' + forfait.description + '</p>')
-                    .append('<p><strong>Durée :</strong>' + forfait.duree + '</p>')
-                    .append('<p><strong>Début de saison :</strong>' + forfait.debut_saison + '</p>')
-                    .append('<p><strong>Fin de saison :</strong>' + forfait.fin_saison + '</p>')
-                    .append('<p><strong>Basse saison :</strong>' + forfait.mois_basse_saison + '</p>')
-                    .append('<p><strong>Prix Basse saison :</strong>' + forfait.prix_basse_saison + '</p>')
-                    .append('<p><strong>Moyenne saison :</strong>' + forfait.mois_moy_saison + '</p>')
-                    .append('<p><strong>Prix moyenne saison :</strong>' + forfait.prix_moy_saison + '</p>')
-                    .append('<p><strong>Haute Saison : </strong>' + forfait.mois_haute_saison + '</p>')
-                    .append('<p><strong>Prix Haute saison : </strong>' + forfait.prix_haute_saison + '</p>')
-                    .append('<p><strong>Places disponibles :</strong>' + forfait.places_dispo + '</p>')
-                    .append('<p><strong>Nombre animaux admis : </strong>' + forfait.nbr_max_animaux_admis + '</p>')
-                    .append('<p><strong>Prix par animal : </strong>' + forfait.prix_animal + '</p>')
+                    
                     .append('<a href="details.html?forfait_id=' + index + '">Détails</a>')
                     .append('<a href="formulaire.html?forfait_id=' + index + '">Réserver</a>');
             switch (forfait.categorie.toLowerCase()) {
