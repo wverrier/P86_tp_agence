@@ -210,9 +210,9 @@ button{
     /*padding-left: 25px;*/
 /*-------------------------------page detail-----------------------------*/
 
-.forfaits {
+#infos_forfait {
     border: 1px solid cadetblue;
-    width: 80%;
+    width: 50%;
 }
 /*Page details : differencier le bouton submit de celui du formulaire*/
 #resa_details{
