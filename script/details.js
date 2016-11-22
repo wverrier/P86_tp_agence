@@ -26,18 +26,30 @@ $(function () {
  */
 function afficher_forfait() {
     $('.forfait.nom').html(forfait.nom);
-    $('.forfait.description').html(forfait.description);
-    $('.forfait.duree').html(forfait.duree);
-    $('.forfait.debut_saison').html(forfait.debut_saison);
-    $('.forfait.fin_saison').html(forfait.fin_saison);
-    $('.forfait.mois_basse_saison').html(forfait.mois_basse_saison);
-    $('.forfait.prix_basse_saison').html(forfait.prix_basse_saison);
-    $('.forfait.haute_saison').html(forfait.mois_haute_saison);
-    $('.forfait.prix_haute_saison').html(forfait.prix_haute_saison);
-    $('.forfait.places_dispo').html(forfait.places_dispo);
-    $('.forfait.nbr_max_animaux_admis').html(forfait.nbr_max_animaux_admis);
-    $('.forfait.prix_animal').html(forfait.prix_animal);
-    $('.forfait_id').html(forfait_id);
+    $('.forfait.description')
+        .append('<p><strong>Description : </strong>' + forfait.description + '</p>');
+    $('.forfait.duree')
+        .append('<p><strong>Durée : </strong>' + forfait.duree + ' jours</p>');
+    $('.forfait.debut_saison')
+        .append('<p><strong>Début de saison : </strong>' + forfait.debut_saison + '</p>');
+    $('.forfait.fin_saison')
+        .append('<p><strong>Fin de saison : </strong>' + forfait.fin_saison + '</p>');
+    $('.forfait.mois_basse_saison')
+        .append('<p><strong>Basse saison : </strong>' + forfait.mois_basse_saison + '</p>');
+    $('.forfait.prix_basse_saison')
+        .append('<p><strong>Prix Basse saison : </strong>' + forfait.prix_basse_saison + ' $CAD</p>');
+    $('.forfait.haute_saison')
+        .append('<p><strong>Haute Saison : </strong>' + forfait.mois_haute_saison + '</p>');
+    $('.forfait.prix_haute_saison')
+        .append('<p><strong>Prix Haute saison : </strong>' + forfait.prix_haute_saison + ' $CAD</p>');
+    $('.forfait.places_dispo')
+        .append('<p><strong>Places disponibles : </strong>' + forfait.places_dispo + '</p>');
+    $('.forfait.nbr_max_animaux_admis')
+        .append('<p><strong>Nombre animaux admis : </strong>' + forfait.nbr_max_animaux_admis + ' </p>');
+    $('.forfait.prix_animal')
+        .append('<p><strong>Prix par animal : </strong>' + forfait.prix_animal + ' $CAD</p>');
+    $('.forfait_id')
+        .append('<a href="formulaire.html?forfait_id=' + index + '">Réserver</a>');
 
 /*
         .append('<h2>' +  + '</h2>')
